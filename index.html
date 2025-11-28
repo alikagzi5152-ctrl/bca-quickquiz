@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickQuiz - BCA Minor Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>QuickQuiz</h1>
+      <p>A simple multiple-choice quiz web app — built with HTML, CSS & JavaScript</p>
+    </header>
+
+    <main id="app">
+      <div id="start-screen" class="card">
+        <h2>Welcome 👋</h2>
+        <p>Test your knowledge with a short 5-question quiz.</p>
+        <button id="startBtn">Start Quiz</button>
+      </div>
+
+      <div id="quiz-screen" class="card hidden">
+        <div id="question-area">
+          <h3 id="question">Question text</h3>
+          <div id="choices"></div>
+        </div>
+        <div id="controls">
+          <button id="nextBtn" class="secondary">Next</button>
+          <span id="progress">0 / 0</span>
+        </div>
+      </div>
+
+      <div id="result-screen" class="card hidden">
+        <h2>Quiz Finished 🎉</h2>
+        <p id="result-text"></p>
+        <button id="retryBtn">Retry</button>
+      </div>
+    </main>
+
+    <footer>
+      <small>Project for BCA 5th Sem — QuickQuiz</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
