@@ -17,8 +17,3 @@ It demonstrates front-end fundamentals and is suitable for a minor project submi
 2. Open `index.html` in any modern browser.
 3. No server is required; this is a static site.
 
-## How to submit on GitHub
-1. Create a new repository (e.g. `bca-quickquiz`).
-2. Add all files, commit and push.
-3. Use GitHub Pages to host `index.html` (Settings → Pages → Source: main branch / root).
-4. Include `REPORT.md` in the repo root and attach a `SOURCE_CODE.pdf` in the repo or a `docs/` folder.
